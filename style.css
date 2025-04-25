@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    padding: 2rem;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .song {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .song h3 {
+    margin: 0;
+    color: #0077cc;
+  }
+  
+  .song p {
+    margin: 0.3rem 0;
+    color: #555;
+  }
