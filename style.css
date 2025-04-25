@@ -12,11 +12,13 @@ body {
   }
   
   .song {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 8px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
   }
   
   .song h3 {
@@ -27,4 +29,20 @@ body {
   .song p {
     margin: 0.3rem 0;
     color: #555;
+  }
+
+  .song img {
+    width: 100px;
+    border-radius: 8px;
+  }
+  
+  .liked {
+    background-color: #ffe9ec;
+    border-color: #ff6b81;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    font-size: 20px;
   }
